@@ -18,7 +18,7 @@ The file `mydata.dat` contains two columns.  The first column is a set of sample
 
 Here ![](https://render.githubusercontent.com/render/math?math=\mu_1) and ![](https://render.githubusercontent.com/render/math?math=\mu_2) are the population means for the two distributions.  ![](https://render.githubusercontent.com/render/math?math=\theta_0) meanwhile is a constant that in this case is set equal to zero (I have introduced this constant to demonstrate that we can set the difference to any value).  We now introduce the following test statistic:
 
-![](https://render.githubusercontent.com/render/math?math=T\frac{\frac{1}{n_1}\sum_{i=1}^{n_1}X_i-\frac{1}{n_2}\sum_{j=1}^{n_2}Y_j-\theta_0}{\sqrt{\frac{\sigma_1^2}{n_1}%2B\frac{\sigma_2}{n_2}}})
+![](https://render.githubusercontent.com/render/math?math=T=\frac{\frac{1}{n_1}\sum_{i=1}^{n_1}X_i-\frac{1}{n_2}\sum_{j=1}^{n_2}Y_j-\theta_0}{\sqrt{\frac{\sigma_1^2}{n_1}%2B\frac{\sigma_2}{n_2}}})
 
 The ![](https://render.githubusercontent.com/render/math?math=X_i) here are the ![](https://render.githubusercontent.com/render/math?math=n_1) samples that were obtained by sampling from the first distribution.  The first term in the numerator is thus a sample mean.  Similarly,  ![](https://render.githubusercontent.com/render/math?math=Y_j) in the second term is used to represent the ![](https://render.githubusercontent.com/render/math?math=n_2) samples that were obtained by sampling from the second distribution so this term is also a sample mean.  Under the assumption of the null hypothesis, the difference between the two sample means should be equal to ![](https://render.githubusercontent.com/render/math?math=theta_0).  The numerator of T is thus a sample from a distribution with an expectation of zero.
 
